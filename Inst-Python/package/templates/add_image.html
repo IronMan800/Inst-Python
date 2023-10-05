@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Add image</title>
+</head>
+
+
+<body>
+<!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+
+
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Типо_инста</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('home') }}">Главная <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="{{ url_for('add_image') }}">Добавить изображение</a>
+                </li>
+
+            </ul>
+
+            <ul class="nav navbar-nav pull-xs-right">
+                <li class="nav-item">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="{{ current_user.get_avatar() }}" width="30" height="30">
+                        {{ current_user.get_username() }}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/profile/{{ current_user.get_login() }}">Профиль</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="{{url_for('logout')}}">Выйти</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+{% for category, message in get_flashed_messages(True) %}
+<div class="container">
+    <div class="alert alert-{{category}}">
+        <strong>Система:</strong> {{message}}
+    </div>
+</div>
+{% endfor %}
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <br>
+
+                <form action="" method="post" enctype="multipart/form-data">
+                    <img id="ImagePreview" src="{{url_for('static', filename='images/no_photo.png')}}"  width = '400px(auto)' class="mx-auto d-block">
+                    <p>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupFileAddon01">Загрузить изображение: </span>
+                        </div>
+                        <div class="custom-file">
+                            <input name="Photo" type="file" class="custom-file-input" id="files" aria-describedby="inputGroupFileAddon01">
+                            <label class="custom-file-label" for="inputGroupFile01">Выберите файл</label>
+                        </div>
+                    </div>
+                    </p>
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Название:</span>
+                        </div>
+                        <input name="NamePhoto" type="text" class="form-control" placeholder="Введите название изображения" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Описание:</span>
+                        <textarea placeholder="Введите описание изображения" name="Description" class="form-control" aria-label="Description"></textarea>
+                    </div>
+
+                    <p>
+                        <input type="submit" class="btn btn-success" value="Добавить"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+document.getElementById("files").onchange = function () {
+    var reader = new FileReader();
+
+    reader.onload = function (e) {
+        // get loaded data and render thumbnail.
+        document.getElementById("ImagePreview").src = e.target.result;
+    };
+
+    // read the image file as a data URL.
+    reader.readAsDataURL(this.files[0]);
+};
+</script>

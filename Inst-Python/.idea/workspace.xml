@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38a07382-19a5-47fd-91e6-911ac2d6101a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k04GAiwJx54xQjmoTPqv01akJ4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/package/templates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Project PyCharm\Learn flask\package\templates" />
+      <recent name="F:\Project PyCharm\Learn flask\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Project PyCharm\Learn flask\package\templates" />
+      <recent name="F:\Project PyCharm\Learn flask\package" />
+      <recent name="F:\Project PyCharm\Learn flask" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Learn flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\Project PyCharm\Learn flask\app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Learn flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.main2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38a07382-19a5-47fd-91e6-911ac2d6101a" name="Default Changelist" comment="" />
+      <created>1604824076026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604824076026</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1060" y="294" key="FileChooserDialogImpl" timestamp="1607428880960">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1060" y="294" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1607428880960" />
+    <state width="2539" height="189" key="GridCell.Tab.0.bottom" timestamp="1611307889174">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2539" height="189" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1611307889174" />
+    <state width="2539" height="189" key="GridCell.Tab.0.center" timestamp="1611307889174">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2539" height="189" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1611307889174" />
+    <state width="2539" height="189" key="GridCell.Tab.0.left" timestamp="1611307889174">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2539" height="189" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1611307889174" />
+    <state width="2539" height="189" key="GridCell.Tab.0.right" timestamp="1611307889174">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2539" height="189" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1611307889174" />
+    <state width="1258" height="337" key="GridCell.Tab.1.bottom" timestamp="1607375253550">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1258" height="337" key="GridCell.Tab.1.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1607375253550" />
+    <state width="1258" height="337" key="GridCell.Tab.1.center" timestamp="1607375253550">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1258" height="337" key="GridCell.Tab.1.center/0.0.2560.1080@0.0.2560.1080" timestamp="1607375253550" />
+    <state width="1258" height="337" key="GridCell.Tab.1.left" timestamp="1607375253550">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1258" height="337" key="GridCell.Tab.1.left/0.0.2560.1080@0.0.2560.1080" timestamp="1607375253550" />
+    <state width="1258" height="337" key="GridCell.Tab.1.right" timestamp="1607375253550">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1258" height="337" key="GridCell.Tab.1.right/0.0.2560.1080@0.0.2560.1080" timestamp="1607375253550" />
+    <state x="781" y="182" key="SettingsEditor" timestamp="1606132021412">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="781" y="182" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1606132021412" />
+    <state x="1616" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1611302739610">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1616" y="363" key="com.intellij.ide.util.TipDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1611302739610" />
+  </component>
+</project>

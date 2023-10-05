@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Все пользователи:</h1>
+{% for user in users %}
+<div>
+    <h2>id Пользователя: {{user.id}} </h2>
+    <p>Логин: {{user.login}}</p>
+    <p>Имя профиля: {{user.username}}</p>
+</div>
+{% endfor %}
+
+
+</body>
+</html>
